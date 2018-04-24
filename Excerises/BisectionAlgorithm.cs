@@ -12,6 +12,7 @@ namespace Bisection
         {
             int[] arr = new int[] { 2, 3, 4, 5, 6 };
             SimpleBisect(arr,3);
+            Console.WriteLine(SimpleBisect(arr, 3));
         }
         public static int? SimpleBisect(int[] array, int target)
         {
